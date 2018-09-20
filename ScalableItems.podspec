@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.dependency 'DeviceKit'
   
   s.source_files = "ScalableItems/**/*.{swift}"
-  s.resources = "ScalableItems/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 
   s.swift_version = "4.2"
 
