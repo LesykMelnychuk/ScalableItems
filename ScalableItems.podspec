@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.platform = :ios
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '9.0'
   s.name         = "ScalableItems"
   s.version      = "1.0.0"
   s.summary      = "Forget about updating UI for every screen, use autoresizing items."
