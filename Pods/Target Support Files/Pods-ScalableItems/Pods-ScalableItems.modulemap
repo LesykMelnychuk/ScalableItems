@@ -1,0 +1,6 @@
+module Pods_ScalableItems {
+  umbrella header "Pods-ScalableItems-umbrella.h"
+
+  export *
+  module * { export * }
+}

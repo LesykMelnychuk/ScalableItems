@@ -1,0 +1,16 @@
+PODS:
+  - DeviceKit (1.8.1)
+
+DEPENDENCIES:
+  - DeviceKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DeviceKit
+
+SPEC CHECKSUMS:
+  DeviceKit: eb29be542f5473b46b1c719011cf7de3ec5264ca
+
+PODFILE CHECKSUM: cecdb8f34e21a5c5fdd98513957d4a75d9a2926f
+
+COCOAPODS: 1.5.3
