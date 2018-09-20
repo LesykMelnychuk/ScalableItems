@@ -10,8 +10,12 @@ Pod::Spec.new do |s|
   s.author = { "Les Melnychuk" => "leslom25@gmail.com" }
 
   s.homepage     = "https://github.com/LesykMelnychuk/ScalableItems"
-  s.source = { :git => "https://github.com/LesykMelnychuk/ScalableItems.git",  
-               :tag => "#{s.version}" }
+  s.source = { 
+    :git => "https://github.com/LesykMelnychuk/ScalableItems.git", 
+    :branch => "master",
+    :tag => s.version.to_s 
+  }
+
 
   s.framework = "UIKit"
   s.dependency 'DeviceKit'
